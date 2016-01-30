@@ -5,16 +5,6 @@ $inven = {
     "veggie" => 5
 }
 
-# Method to display current inventory
-
-# def check_za(za)
-#     if $inven.key?(za) == true
-#         puts "Invalid Entry"
-#     else
-#         break
-#     end
-# end
-
 def show_za
     puts "Current Inventory:"
     puts "------------------"
