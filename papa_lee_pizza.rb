@@ -101,34 +101,34 @@ end
 
 # Method to display the Main Options Menu
 def menu
-    while true
-        puts "         WELCOME TO PAPA LEE'S"
-        puts "----------------------------------------"
-        puts "1 - Display Inventory"
-        puts "2 - Add a new Pizza to the Menu"
-        puts "3 - Remove a Pizza from the Menu"
-        puts "4 - Buy some Pizza (decrease inventory)"
-        puts "5 - Make some Pizza (increase inventory)"
-        puts "6 - Exit"
-        puts ""
-        puts "Please choose an option (1,2,3,4,5,6):"
-        option = gets.chomp.to_i
-        puts ""
-        # Run appropriate method/command based on user selection
-        if option == 1
-            show_za
-        elsif option == 2
-            add_za
-        elsif option == 3
-            kill_za
-        elsif option == 4
-            buy_za
-        elsif option == 5
-            make_za
-        elsif option == 6
-            exit
-        end
+  while true
+    puts "         WELCOME TO PAPA LEE'S"
+    puts "----------------------------------------"
+    puts "1 - Display Inventory"
+    puts "2 - Add a new Pizza to the Menu"
+    puts "3 - Remove a Pizza from the Menu"
+    puts "4 - Buy some Pizza (decrease inventory)"
+    puts "5 - Make some Pizza (increase inventory)"
+    puts "6 - Exit"
+    puts ""
+    puts "Please choose an option (1,2,3,4,5,6):"
+    option = gets.chomp.to_i
+    puts ""
+    # Run appropriate method/command based on user selection
+    if option == 1
+        show_za
+    elsif option == 2
+        add_za
+    elsif option == 3
+        kill_za
+    elsif option == 4
+        buy_za
+    elsif option == 5
+        make_za
+    elsif option == 6
+        exit
     end
+  end
 end        
 
 # Run the menu method when pizza_shob.rb is executed to start the program
